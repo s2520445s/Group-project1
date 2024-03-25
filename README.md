@@ -1,2 +1,1 @@
-# Group Website  
-### League eSports / Riot Games Info Website 
+# League eSports / Riot Games Info Website
