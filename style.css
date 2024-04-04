@@ -1,0 +1,23 @@
+.logo img{
+   height:50px;
+ 
+}
+.toppart{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+}
+.item {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+body
+{
+    background-image: url(https://i.pinimg.com/originals/00/c8/39/00c839ae0bd5111c7d9e78cc34e44ef3.png);
+}
