@@ -1,23 +1,63 @@
-.logo img{
-   height:50px;
- 
+html{
+    scroll-behavior: smooth;
 }
-.toppart{
+body{
+    margin:0;
+    padding:0;
+    font-family:'Lora';
+}
+nav{
+    width: 100%;
     background-color: silver;
-    display: flex;
-    justify-content: center;
-}
-.item {
-    text-align: center;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    overflow: hidden;
+    position: fixed;
+    top:0;
 
 }
-body
-{
-    background-image: url(https://i.pinimg.com/originals/00/c8/39/00c839ae0bd5111c7d9e78cc34e44ef3.png);
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+li{
+    float:left;
+}
+a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#section1{
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/00/c8/39/00c839ae0bd5111c7d9e78cc34e44ef3.png");
+    display: inline-block;
+    width: 100%;
+}
+#section2{
+    height: 100vh;
+    background-image: url("https://images6.alphacoders.com/909/thumb-1920-909375.jpg");
+    display: inline-block;
+    width: 100%;
+}
+#section3{
+    height: 100vh;
+    background-image: url("https://images.hdqwalls.com/download/zed-legends-of-runeterra-league-of-legends-4k-62-1920x1080.jpg");
+    display: inline-block;
+    width: 100%;
+}
+#section4{
+    height: 100vh;
+    background-image: url("https://images.hdqwalls.com/download/legends-of-runeterra-4k-go-1920x1080.jpg");
+    display: inline-block;
+    width: 100%;
+}
+h1{
+    margin:100px;
+    text-align: center;
+    padding:0;
 }
