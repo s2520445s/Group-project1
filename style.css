@@ -60,16 +60,27 @@ a{
     display: inline-block;
     width: 100%;
 }
-#section4{
-    background-size: cover; /* Ensure the background image covers the entire container */
-    background-position: center; /* Center the background image */
-    height: 100vh;
-    background-image: url("https://images.hdqwalls.com/download/legends-of-runeterra-4k-go-1920x1080.jpg");
-    display: inline-block;
-    width: 100%;
-}
+
 h1{
     margin:100px;
     text-align: center;
     padding:0;
+}
+footer{
+    background-color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.icons i{
+    font-size: 2em;
+    
+}
+.footerbot{
+    color: silver;
+    text-align: center;
+    padding: 20px;
 }
