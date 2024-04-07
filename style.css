@@ -7,6 +7,7 @@ body{
     font-family:'Lora';
 }
 nav{
+    padding-bottom: 10px;
     height: 5%;
     justify-content: center;
     display: flex;
