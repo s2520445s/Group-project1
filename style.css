@@ -7,8 +7,11 @@ body{
     font-family:'Lora';
 }
 nav{
+    height: 5%;
+    justify-content: center;
+    display: flex;
     width: 100%;
-    background-color: silver;
+    background-color: black;
     overflow: hidden;
     position: fixed;
     top:0;
@@ -28,29 +31,38 @@ a{
     width: 100px;
     display: block;
     text-decoration: none;
-    color:black;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
 }
 #section1{
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+
     height: 100vh;
-    background-image: url("https://i.pinimg.com/originals/00/c8/39/00c839ae0bd5111c7d9e78cc34e44ef3.png");
+    background-image: url("https://nexus.leagueoflegends.com/wp-content/uploads/2019/04/Banner_Ask_Riot_optimized_9oww147h5zx892qgur7k.jpg");
     display: inline-block;
     width: 100%;
 }
 #section2{
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
     height: 100vh;
-    background-image: url("https://images6.alphacoders.com/909/thumb-1920-909375.jpg");
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_nPtUzheVRG-crlt0TUsRqQWhJ8OUSiWvtwsNOBiy2CU3NPzxSKeFoK9br-bltxPzC_VX1Iehy5SBHX7QoDYmjPHoLE9ERVOErjSdu6BXng6zppQNtRRl-R7yIN4lY90T7gUsWoJWcb1p/s1600/SRBackground.png");
     display: inline-block;
     width: 100%;
 }
 #section3{
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
     height: 100vh;
     background-image: url("https://images.hdqwalls.com/download/zed-legends-of-runeterra-league-of-legends-4k-62-1920x1080.jpg");
     display: inline-block;
     width: 100%;
 }
 #section4{
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
     height: 100vh;
     background-image: url("https://images.hdqwalls.com/download/legends-of-runeterra-4k-go-1920x1080.jpg");
     display: inline-block;
