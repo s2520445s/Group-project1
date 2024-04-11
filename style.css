@@ -98,6 +98,12 @@ h3::first-letter{
 
 }
 
+.h4{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    color: rgb(209, 218, 222);
+}
 #section3{
     background-image: url("https://nexus.leagueoflegends.com/wp-content/uploads/2018/07/LOL_CMS_217_Article_01_9xkwa793w86kqwa9lu0y.jpg");
 
@@ -106,14 +112,14 @@ h3::first-letter{
 .imageLeft {
     width: 500px;
     margin-left: 30px; /* Adjust the margin-left to move it to the right */
-    margin-top: 320px;
+    margin-top: 120px;
     border-radius: 30px; /* Add a border-radius for a subtle outline */
 }
 
 .imageRight{
     width: 500px;
     margin-left: 850px;
-    margin-bottom: -200px;
+    margin-bottom: -500px;
 
 
 }
@@ -121,9 +127,20 @@ h3::first-letter{
 #section4 {
     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/a7255a44120181.580ede70db7e9.jpg")
 }
-
-
-
+.circularImage{
+    margin-top: -270px;
+    width: 450px;
+}
+.koreanCelebrate{
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 450px;
+}
+.koreanPasstime{
+    width: 450px;
+    margin-left: 1050px;
+    margin-top: -900px;
+}
 h1{
     margin-top: 50px;
     text-align: center;
