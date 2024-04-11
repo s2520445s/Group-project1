@@ -77,12 +77,44 @@ li{
 
 
 #section2 {
+    color: white;
     background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/clash-2018/en_GB/a46e742ae82f9d4f9db8e34ba57873e513e727b7/assets/static/img/backgrounds/redeemed-bg.jpg");
 }
+#section2 img {
+    width: 500px; /* Adjust the width as needed */
+    margin-left: 100px; /* Adjust the margin-left to move it to the right */
+    margin-top: 100px;
+    border-radius: 30px; /* Add a border-radius for a subtle outline */
+}
 
+h3{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    color: rgb(209, 218, 222);
+}
+h3::first-letter{
+    font-size: larger;
+
+}
 
 #section3{
     background-image: url("https://nexus.leagueoflegends.com/wp-content/uploads/2018/07/LOL_CMS_217_Article_01_9xkwa793w86kqwa9lu0y.jpg");
+
+}
+
+.imageLeft {
+    width: 500px;
+    margin-left: 30px; /* Adjust the margin-left to move it to the right */
+    margin-top: 320px;
+    border-radius: 30px; /* Add a border-radius for a subtle outline */
+}
+
+.imageRight{
+    width: 500px;
+    margin-left: 850px;
+    margin-bottom: -200px;
+
 
 }
 
@@ -169,6 +201,18 @@ footer{
 
 .icons .fa-twitter:hover {
     color: #1DA1F2;
+}
+
+.gif-hover:hover {
+    content: url('https://media1.giphy.com/media/l3vQYMjq8mIvg5weA/giphy.gif?cid=790b76111id6o5bxk30e6z17458td2g338ymhxlw5obgz0rf&ep=v1_gifs_search&rid=giphy.gif&ct=g'); /* Replace 'path/to/your/gif.gif' with the path to your GIF */
+}
+
+.mirror {
+    width: 500px;
+    margin-left: -20px; /* Adjust the margin-left to move it to the right */
+    margin-top: 320px;
+    border-radius: 30px; /* Add a border-radius for a subtle outline */
+    transform: scaleX(-1);
 }
 
 
