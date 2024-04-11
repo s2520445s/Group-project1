@@ -82,21 +82,14 @@ li{
 
 
 #section3{
-    background-image: url("https://i.pinimg.com/originals/b6/39/73/b63973148f8e34d288ee16c134ba12a3.png");
+    background-image: url("https://www.theloadout.com/wp-content/sites/theloadout/2022/02/league-of-legends-your-shop.jpg");
 
 }
 
 #section4 {
-
+    background-image: url("https://nexus.leagueoflegends.com/wp-content/uploads/2018/07/LOL_CMS_217_Article_01_9xkwa793w86kqwa9lu0y.jpg")
 }
 
-#section5 {
-
-}
-
-#section6 {
-
-}
 
 
 h1{
@@ -118,6 +111,7 @@ footer{
     font-size: 2em;
 
 }
+
 .footerbot{
     color: silver;
     text-align: center;
@@ -132,6 +126,16 @@ footer{
     margin-bottom: 10px;
     color: white;
 }
+
+.signup .hover-image {
+    opacity: 0;
+    transition: opacity 3.0s ease;
+}
+
+.signup:hover .hover-image {
+    opacity: 1;
+}
+
 
 .signup form input[type="email"] {
     padding: 8px;
@@ -152,7 +156,7 @@ footer{
 }
 
 .signup form button:hover {
-    background-color: red;
+    background-color: green;
 }
 
 .icons .fa-facebook:hover {
