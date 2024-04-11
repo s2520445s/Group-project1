@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora';
+}
+
+nav{
+    padding-bottom: 10px;
+    height: 5%;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+
+}
+
+a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+nav ul li:first-child img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+ul{
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+li{
+    float: left;
+}
+
+.flex-container {
+    background-color: rgb(6, 28, 37);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh; /* For margin at top */
+}
+
+.flex-item {
+    flex: 1100px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 100vw;
+    height: 500px;
+
+}
+
+#section1 {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2zz0l2OSm1VFHfT4vJa3VUjs7oOP8KfLRTwOqLDtopU5i9HXuaaat01pamf8EaQSHnFZl5GtTd-wRaeKSt79J7vrm2qXY442ORKxgSbTM7mW7c4MUZ55uXBSAVlrGtHHpMWTyWYaDQBU/s1920/CLASH2020_T2_CLIENT_1920x1080_ARTICLE_IMAGE_FINAL.jpg");
+
+}
+
+
+#section2 {
+    color: white;
+    background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/clash-2018/en_GB/a46e742ae82f9d4f9db8e34ba57873e513e727b7/assets/static/img/backgrounds/redeemed-bg.jpg");
+}
+#section2 img {
+    width: 500px; /* Adjust the width as needed */
+    margin-left: 100px; /* Adjust the margin-left to move it to the right */
+    margin-top: 100px;
+    border-radius: 30px; /* Add a border-radius for a subtle outline */
+}
+
+h3{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    color: rgb(209, 218, 222);
+}
+h3::first-letter{
+    font-size: larger;
+
+}
+
+.h4{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    color: rgb(209, 218, 222);
+}
+#section3{
+    background-image: url("https://nexus.leagueoflegends.com/wp-content/uploads/2018/07/LOL_CMS_217_Article_01_9xkwa793w86kqwa9lu0y.jpg");
+
+}
+
+.imageLeft {
+    width: 500px;
+    margin-left: 30px; /* Adjust the margin-left to move it to the right */
+    margin-top: 120px;
+    border-radius: 30px; /* Add a border-radius for a subtle outline */
+}
+
+.imageRight{
+    width: 500px;
+    margin-left: 850px;
+    margin-bottom: -500px;
+
+
+}
+
+#section4 {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/a7255a44120181.580ede70db7e9.jpg")
+}
+.circularImage{
+    margin-top: -270px;
+    width: 450px;
+}
+.koreanCelebrate{
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 450px;
+}
+.koreanPasstime{
+    width: 450px;
+    margin-left: 1050px;
+    margin-top: -900px;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0;
+    color: rgb(209, 218, 222);
+}
+footer{
+    background-color: black;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+.icons i{
+    font-size: 2em;
+
+}
+
+.footerbot{
+    color: silver;
+    text-align: center;
+    padding: 20px;
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.signup .hover-image {
+    opacity: 0;
+    transition: opacity 3.0s ease;
+}
+
+.signup:hover .hover-image {
+    opacity: 1;
+}
+
+
+.signup form input[type="email"] {
+    padding: 8px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.signup form button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+
+}
+
+.signup form button:hover {
+    background-color: green;
+}
+
+.icons .fa-facebook:hover {
+    color: #4267B2;
+}
+
+.icons .fa-youtube:hover {
+    color: #FF0000;
+}
+
+.icons .fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.gif-hover:hover {
+    content: url('https://media1.giphy.com/media/l3vQYMjq8mIvg5weA/giphy.gif?cid=790b76111id6o5bxk30e6z17458td2g338ymhxlw5obgz0rf&ep=v1_gifs_search&rid=giphy.gif&ct=g'); /* Replace 'path/to/your/gif.gif' with the path to your GIF */
+}
+
+.mirror {
+    width: 500px;
+    margin-left: -20px; /* Adjust the margin-left to move it to the right */
+    margin-top: 320px;
+    border-radius: 30px; /* Add a border-radius for a subtle outline */
+    transform: scaleX(-1);
+}
+
+
